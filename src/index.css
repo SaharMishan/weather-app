@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./assets/Night.webp");
+  background-size: cover;
+}
+.App {
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 12px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  width: 500px;
+  height: 500px;
+}
+
+.search-bar {
+  width: 40%;
+  height: 48px;
+  padding-left: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.search-bar:focus {
+  background-color: transparent;
+  border: 0px solid;
+}
+::placeholder {
+  color: white;
+  padding-left: 12px;
+}
+.weather-details {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.weather-details-bottom {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  padding-left: 36px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.weather-details-bottom p {
+  padding-right: 36px;
+  margin-top: 12px;
+}
