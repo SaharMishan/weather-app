@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In this application i used the OpenWeatherAPI to get the weather information.
+Built with OpenWeatherAPI and React.
 
 ## Available Scripts
 
